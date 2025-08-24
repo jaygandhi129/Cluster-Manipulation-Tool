@@ -1,0 +1,218 @@
+{
+  "clusters": [
+    {
+      "id": "dev_team",
+      "name": "Development Team",
+      "members": [
+        {
+          "id": "dev_001",
+          "name": "Alice Johnson",
+          "metadata": {
+            "role": "Senior Full-Stack Developer",
+            "department": "Engineering",
+            "experience": "5 years",
+            "skills": ["Python", "React", "AWS"],
+            "location": "San Francisco, CA"
+          }
+        },
+        {
+          "id": "dev_002",
+          "name": "Bob Chen",
+          "metadata": {
+            "role": "Backend Developer",
+            "department": "Engineering",
+            "experience": "3 years",
+            "skills": ["Python", "PostgreSQL", "Docker"],
+            "location": "Seattle, WA"
+          }
+        },
+        {
+          "id": "dev_003",
+          "name": "Charlie Davis",
+          "metadata": {
+            "role": "Frontend Developer",
+            "department": "Engineering",
+            "experience": "4 years",
+            "skills": ["React", "TypeScript", "CSS"],
+            "location": "Austin, TX"
+          }
+        }
+      ],
+      "relationships": ["design_team", "qa_team"]
+    },
+    {
+      "id": "design_team",
+      "name": "Design Team",
+      "members": [
+        {
+          "id": "des_001",
+          "name": "Diana Garcia",
+          "metadata": {
+            "role": "UI/UX Designer",
+            "department": "Design",
+            "experience": "6 years",
+            "skills": ["Figma", "Adobe XD", "User Research"],
+            "location": "New York, NY"
+          }
+        },
+        {
+          "id": "des_002",
+          "name": "Eva Martinez",
+          "metadata": {
+            "role": "Visual Designer",
+            "department": "Design",
+            "experience": "4 years",
+            "skills": ["Photoshop", "Illustrator", "Branding"],
+            "location": "Los Angeles, CA"
+          }
+        }
+      ],
+      "relationships": ["dev_team", "marketing_team"]
+    },
+    {
+      "id": "qa_team",
+      "name": "Quality Assurance",
+      "members": [
+        {
+          "id": "qa_001",
+          "name": "Frank Wilson",
+          "metadata": {
+            "role": "QA Engineer",
+            "department": "Engineering",
+            "experience": "5 years",
+            "skills": ["Selenium", "Jest", "Manual Testing"],
+            "location": "Boston, MA"
+          }
+        },
+        {
+          "id": "qa_002",
+          "name": "Grace Lee",
+          "metadata": {
+            "role": "Test Automation Engineer",
+            "department": "Engineering",
+            "experience": "3 years",
+            "skills": ["Cypress", "Python", "CI/CD"],
+            "location": "Portland, OR"
+          }
+        }
+      ],
+      "relationships": ["dev_team"]
+    },
+    {
+      "id": "marketing_team",
+      "name": "Marketing Team",
+      "members": [
+        {
+          "id": "mkt_001",
+          "name": "Henry Brown",
+          "metadata": {
+            "role": "Marketing Manager",
+            "department": "Marketing",
+            "experience": "7 years",
+            "skills": ["Digital Marketing", "Analytics", "SEO"],
+            "location": "Chicago, IL"
+          }
+        },
+        {
+          "id": "mkt_002",
+          "name": "Ivy Taylor",
+          "metadata": {
+            "role": "Content Strategist",
+            "department": "Marketing",
+            "experience": "4 years",
+            "skills": ["Content Writing", "Social Media", "Brand Strategy"],
+            "location": "Miami, FL"
+          }
+        },
+        {
+          "id": "mkt_003",
+          "name": "Jack Anderson",
+          "metadata": {
+            "role": "Growth Analyst",
+            "department": "Marketing",
+            "experience": "2 years",
+            "skills": ["Data Analysis", "A/B Testing", "SQL"],
+            "location": "Denver, CO"
+          }
+        }
+      ],
+      "relationships": ["design_team", "sales_team"]
+    },
+    {
+      "id": "sales_team",
+      "name": "Sales Team",
+      "members": [
+        {
+          "id": "sal_001",
+          "name": "Kelly Murphy",
+          "metadata": {
+            "role": "Sales Manager",
+            "department": "Sales",
+            "experience": "8 years",
+            "skills": ["B2B Sales", "CRM", "Negotiation"],
+            "location": "Atlanta, GA"
+          }
+        },
+        {
+          "id": "sal_002",
+          "name": "Liam O'Connor",
+          "metadata": {
+            "role": "Account Executive",
+            "department": "Sales",
+            "experience": "3 years",
+            "skills": ["Lead Generation", "Salesforce", "Presentation"],
+            "location": "Dallas, TX"
+          }
+        }
+      ],
+      "relationships": ["marketing_team"]
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science Team",
+      "members": [
+        {
+          "id": "ds_001",
+          "name": "Maya Patel",
+          "metadata": {
+            "role": "Senior Data Scientist",
+            "department": "Analytics",
+            "experience": "6 years",
+            "skills": ["Python", "Machine Learning", "Statistics"],
+            "location": "San Jose, CA"
+          }
+        },
+        {
+          "id": "ds_002",
+          "name": "Noah Kim",
+          "metadata": {
+            "role": "Data Engineer",
+            "department": "Analytics",
+            "experience": "4 years",
+            "skills": ["Spark", "Kafka", "Data Pipelines"],
+            "location": "Phoenix, AZ"
+          }
+        }
+      ],
+      "relationships": []
+    },
+    {
+      "id": "hr_team",
+      "name": "Human Resources",
+      "members": [
+        {
+          "id": "hr_001",
+          "name": "Olivia White",
+          "metadata": {
+            "role": "HR Manager",
+            "department": "Human Resources",
+            "experience": "9 years",
+            "skills": ["Recruitment", "Employee Relations", "Policy Development"],
+            "location": "Philadelphia, PA"
+          }
+        }
+      ],
+      "relationships": []
+    }
+  ]
+}
