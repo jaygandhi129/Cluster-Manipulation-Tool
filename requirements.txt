@@ -1,6 +1,6 @@
 # Core Streamlit and Web Framework
 streamlit>=1.28.0
-streamlit-flow>=1.6.0
+streamlit-flow-component>=0.6.0
 
 # Data Processing
 pandas>=1.5.0
@@ -8,10 +8,6 @@ numpy>=1.24.0
 
 # Utilities
 uuid
-copy
-json
-datetime
-typing
 
 # Optional: For enhanced development
 # streamlit-option-menu>=0.3.6  # For better navigation
